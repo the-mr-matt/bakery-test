@@ -34,3 +34,14 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+Assets/Bakery/*
+!Assets/Bakery/ftLightmaps.cs
+!Assets/Bakery/ftLightmapsStorage.cs
+!Assets/Bakery/ftLocalStorage.cs
+!Assets/Bakery/ftGlobalStorage.cs
+
+Assets/Editor/x64/Bakery/*
+!Assets/Editor/x64/Bakery/scripts/
+Assets/Editor/x64/Bakery/scripts/*
+!Assets/Editor/x64/Bakery/scripts/ftModelPostProcessor.cs
